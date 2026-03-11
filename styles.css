@@ -1,1 +1,25 @@
+body{
+    background-color: cadetblue;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+}
 
+h1{
+    background-color: pink;
+    width: 800 px;
+    margin: 0 auto;
+    padding: 30 px;
+    border-left: 3px double white;
+    border-right: 3px double white;
+    font-size: 1.2cm
+}
+
+h2{
+    font-size: 0.9cm
+ 
+
+}
+h3{
+    font-size: 0.7cm
+}
