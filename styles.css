@@ -1,25 +1,144 @@
 body{
-    background-color: cadetblue;
+    background-color: rgb(255, 157, 206);
     color: white;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
+    padding: 30px;
+
 }
 
 h1{
-    background-color: pink;
-    width: 800 px;
+    background-color: rgb(0, 0, 0);
+    width: 800px;
     margin: 0 auto;
-    padding: 30 px;
+    padding: 30px;
     border-left: 3px double white;
     border-right: 3px double white;
-    font-size: 1.2cm
+    font-size: 1.2cm;
+    text-align: center;
+    border: 6px groove white;
+    border-radius: 30px;
+    color: white;
 }
 
 h2{
-    font-size: 0.9cm
- 
+    font-size: 0.9cm;
+    text-align: center;
+    
 
 }
 h3{
-    font-size: 0.7cm
+    font-size: 0.7cm;
+    padding: 10px;
+}
+
+#General{
+    border-left: 30px double rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 157, 206);
+    margin-right: 600px;
+}
+
+#Softball{
+   text-align: right;
+    border-right: 30px double rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 157, 206);
+    margin-left: 600px;
+}
+
+#Hobbies{
+    border-left: 30px double rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 157, 206);
+    margin-right: 600px;
+}
+
+p{
+    line-height: 0.6cm;
+    margin-bottom: 40px;
+}
+
+img{
+    border: 3px double rgb(0, 0, 0);
+    border-radius: 15px;
+    margin-left: 15px
+}
+
+#Layla {
+    float: right;
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+#Duke{
+    float: left;
+    margin-right:15px;
+    margin-top: -30px;
+    margin-left: -10px
+}
+
+#Ireland {
+    float: right;
+    margin-right:10px;
+    margin-top: -30px;
+}
+
+#page {
+    background-color: white;
+    color: black;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+a:link {
+    color: #ff66b2;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #cc5299;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#sidebar {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    margin-top: 70px;
+    border-left: 3px double white;
+    border-right: 3px double white;
+    border: 6px groove white;
+    border-radius: 30px;
+}
+
+.highlight{
+    background: yellow;
+    font-weight: bold;
+    color: black;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.underline{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
