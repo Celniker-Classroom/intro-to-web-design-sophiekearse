@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 157, 206);
+    background-color: #ff9dce;
     color: white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
@@ -12,11 +12,13 @@ h1{
     width: 800px;
     margin: 0 auto;
     padding: 30px;
-    border-left: 3px double white;
-    border-right: 3px double white;
+    border-left: 3px double #ff9dce;
+    border-right: 3px double #ff9dce;
+    border-top: 3px double #ff9dce;
+    border-bottom: 3px double #ff9dce;
     font-size: 1.2cm;
     text-align: center;
-    border: 6px groove white;
+    border: 6px groove ff9dce;
     border-radius: 30px;
     color: white;
 }
@@ -68,37 +70,42 @@ h3{
     margin-top: 50px;
     padding-bottom: 5px;
     padding-top: 5px;
+    margin-bottom: -20px
      
     
 }
 
 p{
     line-height: 0.8cm;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-left: 10px;
      font-size: 0.5cm;
 
 }
 
 img{
-    border: 3px double rgb(0, 0, 0);
+    border: 3px double #ff66b2;
     border-radius: 15px;
-    margin-left: 15px
+    margin-left: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 #Layla {
     float: right;
     margin-left: 20px;
-    margin-top: -30px;
-    margin-bottom: 6px;
+    margin-top: -20px;
 }
 
 #Duke{
     float: left;
     margin-right:25px;
-    margin-top: -30px;
+    margin-top: -20px;
     margin-left: -10px;
-    margin-bottom: 10px
 }
 
 #Ireland {
@@ -115,6 +122,10 @@ img{
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+     border-left: 3px double rgb(0, 0, 0);
+    border-right: 3px double rgb(0, 0, 0);
+    border-top: 3px double rgb(0, 0, 0);
+    border-bottom: 3px double rgb(0, 0, 0);
 }
 
 a:link {
@@ -123,7 +134,7 @@ a:link {
 }
 
 a:visited {
-    color: #cc5299;
+    color: #8a0a55;
 }
 
 a:hover {
@@ -132,12 +143,42 @@ a:hover {
 #sidebar {
     background-color: rgb(0, 0, 0);
     color: white;
-    padding: 20px;
+    padding: 15px;
     margin-top: 70px;
     border-left: 3px double white;
     border-right: 3px double white;
     border: 6px groove white;
     border-radius: 30px;
+    
+
+}
+
+
+#CCA {
+    margin-right: 600px;
+     line-height: 0.8cm;
+    margin-bottom: 20px;
+    margin-left: 10px;
+     font-size: 0.5cm;
+     margin-top: -20px
+}
+
+#cca1 {
+    float: right;
+    border: 3px double #ff66b2;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: -117px;
+    margin-right: 30px
+}
+
+#cca2 {
+        float: right;
+    border: 3px double #ff66b2;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: -117px;
+    margin-right: 30px
 }
 
 .highlight{
